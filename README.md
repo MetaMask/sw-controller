@@ -7,7 +7,7 @@ provide the active service worker on a ready event
 
 ### Usage
 ```javascript
-const SWcontroller = require('./sw-controller')
+const SWcontroller = require('client-sw-ready-event/lib/sw-client.js')
 const SwStream = require('sw-stream/lib/sw-stream.js')
 
 const background = new SWcontroller({
