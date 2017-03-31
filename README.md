@@ -22,5 +22,7 @@ background.on('ready', () => {
   })
  // do stuff
 })
+
+background.startWorker()
 ```
 
