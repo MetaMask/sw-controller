@@ -1,6 +1,6 @@
 {
   "name": "client-sw-ready-event",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "Client Side service worker ready event",
   "main": "index.js",
   "scripts": {
