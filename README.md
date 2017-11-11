@@ -16,7 +16,7 @@ const controller = new SwController({
   scope: 'clientA',
 })
 
-controller.on('ready', () => {
+controller.once('ready', () => {
   const swStream = createSwStream({
     serviceWorker: controller.getWorker(),
   })
