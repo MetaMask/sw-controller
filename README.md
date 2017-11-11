@@ -12,8 +12,10 @@ const createSwStream = require('sw-stream')
 
 const controller = new SwController({
   fileName: '/service-worker.js',
-  // optional
-  scope: 'clientA',
+  // optional, scope used when registering service worker
+  scope: '/',
+  // default: true, pings the service worker to keep it alive
+  keepAlive: true,
 })
 
 controller.once('ready', () => {
