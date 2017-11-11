@@ -30,5 +30,16 @@
     "browserify": "^13.3.0",
     "uglifyify": "^3.0.4",
     "watchify": "^3.7.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MetaMask/sw-controller.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MetaMask/sw-controller/issues"
+  },
+  "homepage": "https://github.com/MetaMask/sw-controller#readme"
 }
